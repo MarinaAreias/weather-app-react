@@ -1,0 +1,15 @@
+.Humidity ul {
+  list-style: none;
+  color: #74787d;
+  font-size: 29px;
+  line-height: 1.5;
+  text-align: right;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 340px;
+}
+
+span {
+  font-weight: bold;
+  color: white;
+}

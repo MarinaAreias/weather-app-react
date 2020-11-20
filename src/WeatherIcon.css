@@ -1,0 +1,7 @@
+small {
+  font-size: 25px;
+  position: relative;
+  left: 30px;
+  bottom: 150px;
+  text-transform: capitalize;
+}
