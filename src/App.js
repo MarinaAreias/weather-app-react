@@ -14,7 +14,8 @@ import Forecast from "./Forecast";
 
 export default function App(props) {
   return (
-    <main className="App">
+    <div className="container">
+   <main className="App">
       <Search />
       <CityHeader name="Rotterdam" />
       <Date />
@@ -25,5 +26,8 @@ export default function App(props) {
       <Forecast />
       
     </main>
+    </div>
+   
+
   );
 }

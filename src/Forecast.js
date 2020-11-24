@@ -4,7 +4,7 @@ import "./Forecast.css";
 
 export default function Forecast() {
   return (
-    <div className="container">
+    <div className="secondContainer">
       <div className="Forecast1">
         <header>
           {" "}

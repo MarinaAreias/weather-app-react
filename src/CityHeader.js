@@ -3,5 +3,10 @@ import React from "react";
 import "./CityHeader.css";
 
 export default function CityHeader(props) {
-  return <h1> {props.name} </h1>;
+  return (
+  <div className="row">
+    <div className="col-6">
+  <h1> {props.name} </h1>
+  </div>
+  </div>);
 }
