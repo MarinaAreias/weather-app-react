@@ -12,7 +12,6 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <OpenSource/>
-    
   </React.StrictMode>,
   document.getElementById('root')
 );

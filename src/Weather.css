@@ -1,7 +1,3 @@
-.Search {
-  text-align: left;
-}
-
 .searchBar {
   padding: 0.265rem 0.45rem;
   border-radius: 4px;
@@ -31,4 +27,31 @@
 .searchButton:hover {
   background-color: #dae0e5;
   color: black;
+}
+
+.Weather h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+}
+
+.Weather li {
+  font-size: 20px;
+  list-style: none;
+  color: red;
+}
+
+.Weather strong {
+  font-size: 90px;
+  text-transform: capitalize;
+}
+
+.Weather small {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.Weather span {
+  font-weight: bold;
+  color: white;
 }
