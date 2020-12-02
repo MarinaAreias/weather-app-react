@@ -12,7 +12,7 @@ export default function App(props) {
     <div className="container">
    <main className="App">
     
-     <Weather/>
+     <Weather defaultCity="Rotterdam"/>
      
       <Forecast />
       
