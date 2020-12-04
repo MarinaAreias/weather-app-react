@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 
 
-import Weather from "./Weather"
+import WeatherForm from "./WeatherForm";
 
 import Forecast from "./Forecast";
 
@@ -12,7 +12,7 @@ export default function App(props) {
     <div className="container">
    <main className="App">
     
-     <Weather defaultCity="Rotterdam"/>
+     <WeatherForm defaultCity="Rotterdam"/>
      
       <Forecast />
       
