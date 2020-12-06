@@ -61,6 +61,12 @@
   text-transform: capitalize;
 }
 
+.Weather canvas {
+  margin-left: 160px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
 .Weather li {
   font-size: 20px;
   list-style: none;
