@@ -4,7 +4,7 @@ import './App.css';
 
 import WeatherForm from "./WeatherForm";
 
-import Forecast from "./Forecast";
+
 
 
 export default function App(props) {
@@ -13,8 +13,6 @@ export default function App(props) {
    <main className="App">
     
      <WeatherForm defaultCity="Rotterdam"/>
-     
-      <Forecast />
       
     </main>
     
