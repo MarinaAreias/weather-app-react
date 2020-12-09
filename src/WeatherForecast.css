@@ -1,9 +1,20 @@
 .weatherForecast {
   text-align: center;
-  margin: 10px 0;
+  margin-top: 15px;
+  font-size: 15px;
+  padding-left: 8px;
+  color: red;
 }
 
-.weatherForecast canvas {
+.weatherForecast .dateForecast {
+  font-size: 17px;
+}
+
+.weatherForecast .iconForecast canvas {
   display: block;
-  margin: 10px 0 auto;
+}
+
+.forecastCss {
+  margin-left: 5px;
+  padding: 0px auto;
 }

@@ -1,23 +1,25 @@
 .searchBar {
   padding: 0.265rem 0.45rem;
   border-radius: 4px;
-  width: 50%;
+  width: 70%;
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
+  opacity: 80%;
 }
 
 .searchButton {
   color: back;
   background-color: white;
+  opacity: 90%;
   border-radius: 4px;
   position: relative;
   left: 10px;
   margin: 0px !important;
-  padding: 0.375rem 0.75rem;
+  padding: 0.345rem 0.85rem;
   cursor: pointer;
   text-align: center;
   border: 1px solid transparent;
@@ -30,50 +32,61 @@
 }
 
 .Weather h1 {
+  margin-top: 50px;
   font-size: 40px;
+  text-transform: uppercase;
   font-weight: bold;
   color: white;
-  text-transform: capitalize;
 }
 
 .Weather small {
-  font-size: 16px;
+  font-size: 15px;
   list-style: none;
-  color: black;
+  color: lightgray;
+  text-transform: uppercase;
+
+  padding-left: 3px;
 }
 
 .Weather h2 {
-  font-size: 90px;
-  text-transform: capitalize;
+  font-size: 107px;
+  margin-top: 45px;
+  padding-left: 10px;
 }
 
 .Weather .unit {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400px;
   position: relative;
   line-height: 1;
   top: -54px;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 .Weather h3 {
-  font-size: 20px;
+  font-size: 15px;
   text-transform: capitalize;
+  margin-left: 2px;
 }
 
-.Weather canvas {
-  margin-left: 160px;
-  margin-top: 10px;
+.Weather .icon canvas {
+  margin-left: 120px;
   display: block;
+  position: relative;
+  top: -60px;
 }
 
 .Weather li {
-  font-size: 20px;
+  font-size: 18px;
   list-style: none;
   color: black;
+  margin: 20px 0px 0px 35px;
 }
 
-.Weather span {
+.Weather .listValues {
   font-weight: bold;
   color: white;
+  font-size: 20px;
+  list-style: none;
+  margin: 20px 0px 0px 35px;
 }

@@ -19,11 +19,21 @@ const [forecast, setForecast] = useState(null);
          console.log();
         return (
               <div className="weatherForecast row">
-      
+      <div className="forecastCss">
         <ForecastPreview data={forecast.list[0]}/>
+        </div>
+        <div className="forecastCss">
         <ForecastPreview data={forecast.list[1]}/>
+        </div>
+        <div className="forecastCss">
         <ForecastPreview data={forecast.list[2]}/>
-       
+        </div>
+        <div className="forecastCss">
+        <ForecastPreview data={forecast.list[3]}/>
+        </div>
+        <div className="forecastCss">
+       <ForecastPreview data={forecast.list[4]}/>
+       </div>
          
         </div>
              
