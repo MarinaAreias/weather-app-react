@@ -11,6 +11,7 @@ const [forecast, setForecast] = useState(null);
 
     function handleForecasteResponse(response){
         setForecast(response.data);
+        
         setLoaded(true);
        
     }
@@ -40,8 +41,10 @@ const [forecast, setForecast] = useState(null);
         );;
     } else {
 
-         let apiKey = "0adaa91f644d84f9dd2a3896dae4fdb0";
+         const apiKey = "0adaa91f644d84f9dd2a3896dae4fdb0";
     let apiUrl= `https://api.openweathermap.org/data/2.5/forecast?q=${props.city}&appid=${apiKey}&units=metric`;
+    
+
 axios.get(apiUrl).then(handleForecasteResponse);
 
 

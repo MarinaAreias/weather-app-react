@@ -4,11 +4,11 @@ import "./WeatherForecast.css";
 
 export default function ForecastPreview(props){
 
-    function dayForecast(){
+    function hours(){
         let date = new Date(props.data.dt * 1000);
-        const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-       let day = days[date.getDay()];
-        return `${day}`;
+       let hours = date.getHours();
+        return `${hours}:00`;
+       
     }
 
     function forecastTemp(){
@@ -19,7 +19,7 @@ export default function ForecastPreview(props){
     return(
         <div className="col-3">
            <h4>
-    <strong className="dateForecast"> {dayForecast()} </strong>
+    <strong className="dateForecast"> {hours()} </strong>
           </h4>
           <span className="iconForecast">
                <WeatherIcon apiCode={props.data.weather[0].icon}/>   

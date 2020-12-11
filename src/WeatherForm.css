@@ -40,17 +40,16 @@
 }
 
 .Weather small {
-  font-size: 15px;
+  font-size: 12px;
   list-style: none;
   color: lightgray;
   text-transform: uppercase;
-
   padding-left: 3px;
 }
 
 .Weather h2 {
   font-size: 107px;
-  margin-top: 45px;
+  margin-top: 15px;
   padding-left: 10px;
 }
 
