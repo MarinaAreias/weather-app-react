@@ -44,7 +44,7 @@ setCity(event.target.value);
         return (
 
       <div className= "Weather">  
-      <form onSubmit={handleSubmit}>
+      <form name="searchBar" onSubmit={handleSubmit}>
         <input type="text" placeholder="Search city" className="searchBar" autoFocus="on"  onChange={handleCityInput}/>
         <input type="submit" value="Search" className="searchButton"  />
      
