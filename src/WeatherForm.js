@@ -51,7 +51,7 @@ setCity(event.target.value);
       </form>
 
     <WeatherInfo data={weatherData} />
-
+<hr/>
     <WeatherForecast city={weatherData.city} />
         
      </div>
