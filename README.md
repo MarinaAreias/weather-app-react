@@ -4,3 +4,4 @@
 -> bootstrap
 -> API from weather https://openweathermap.org/api
 -> used icons from npm ReactAnimatedWeather
+-> this project is hosted on Netlify
